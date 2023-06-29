@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body {
+    color: rgb(200, 0, 50);
+    background-color: rgb(0, 15, 10);
+}
+
+.font-title {
+    font-family: 'Tilt Prism', cursive;
+}
+
+.font-btn {
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+header {
+    background-color: rgb(20, 20, 50);
+    display: inline-block;
+    width: 100%;
+    min-height: 200px;
+    text-align: left;
+
+    background: rgb(20,20,50);
+    background: linear-gradient(180deg,
+    rgba(20,20,50,1) 0%, 
+    rgba(30,0,0,1) 45%, 
+    rgba(30,0,0,1) 55%, 
+    rgba(10,0,20,1) 100%);
+}
+
+.title {
+    transition: 150ms;
+
+    font-size: 3.5em;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.title:hover {
+    transition: 900ms;
+    transform: scale(1.03) translate(15px, 10px);
+}
+
+.ul-header {
+    display: flexbox;
+    width: 90%;
+    margin: 50px auto 50px;
+
+    align-items: center;
+}
+
+.no-decor {
+    text-decoration: none;
+    color: rgb(200, 0, 50);
+}
+
+.btn {
+    transition: 200ms;
+
+    background-color: rgb(10, 30,70);
+    color: rgb(200, 0, 50);
+    border: 1px double rgb(20, 0, 10);
+
+    padding: 10px 5px;
+
+    font-size: 1.5em;
+    min-width: 15%;
+    margin: 0 4%;
+    display: inline;
+    border-radius: 20% 50%;
+}
+
+.btn:hover {
+    transition: 350ms;
+    transform: skew(-30deg, -10deg);
+
+    cursor: pointer;
+}
+
+.center-section {
+    width: 980px;
+    min-height: 80vh;
+    margin: 0 auto;
+
+    background: linear-gradient(90deg, rgba(0,15,10,1) 0%, 
+    rgba(0,8,2,1) 50%, 
+    rgba(0,15,10,1) 100%);
+}
